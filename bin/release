@@ -1,6 +1,5 @@
 #!/bin/sh
 
 cat <<EOF
-default_process_types:
-  web: .meteor/heroku_build/bin/node \$NODEJS_PARAMS .meteor/heroku_build/app/init.js
+
 EOF
